@@ -49,6 +49,7 @@ module.exports = {
     extensions: [".js", ".ts"],
   },
   output: {
+    clean: true,
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
