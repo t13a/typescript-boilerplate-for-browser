@@ -16,7 +16,7 @@ v20.6.1
 ### Start development server
 
 ```
-$ npm dev
+$ npm run dev
 ```
 
 ### Create bundle
