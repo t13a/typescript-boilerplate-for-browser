@@ -36,9 +36,11 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          context: path.resolve(__dirname, "static"),
-          from: path.resolve(__dirname, "static/**/*"),
-          to: path.resolve(__dirname, "dist"),
+          context: path.resolve(__dirname, "src"),
+          from: path.resolve(__dirname, "src/**/*"),
+          globOptions: {
+            ignore: ["**/*.ts"],
+          },
         },
       ],
     }),
