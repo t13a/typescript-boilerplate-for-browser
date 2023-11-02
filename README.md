@@ -13,6 +13,12 @@ $ node --version
 v20.6.1
 ```
 
+### Install packages
+
+```
+$ npm ci
+```
+
 ### Start development server
 
 ```
