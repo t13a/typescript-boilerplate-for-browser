@@ -36,3 +36,10 @@ $ npm run build
 ```
 $ npm run watch
 ```
+
+### Linting and formatting
+
+```
+$ npm run lint
+$ npm run fmt
+```

@@ -18,12 +18,12 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve --mode development",
+    "fmt": "run-s -c fmt:*",
+    "fmt:eslint": "eslint --fix .",
+    "fmt:prettier": "prettier --write .",
     "lint": "run-s -c lint:*",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
-    "lint-fix": "run-s -c lint-fix:*",
-    "lint-fix:eslint": "eslint --fix .",
-    "lint-fix:prettier": "prettier --write .",
     "watch": "webpack --watch"
   }
 }
