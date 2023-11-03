@@ -1,0 +1,8 @@
+# Ignore JavaScript.
+*.cjs
+*.js
+*.mjs
+
+# Ignore auto-generated files.
+/dist
+/node_modules
