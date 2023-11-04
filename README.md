@@ -29,12 +29,7 @@ $ npm run dev
 
 ```
 $ npm run build
-```
-
-### Create bundle (when the sources has changed)
-
-```
-$ npm run watch
+$ npm run watch # Build when files have been changed.
 ```
 
 ### Linting and formatting
