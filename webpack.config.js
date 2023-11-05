@@ -2,6 +2,7 @@ const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 
+/** @type {import('webpack').Configuration} */
 module.exports = {
   devtool: "source-map",
   devServer: {
