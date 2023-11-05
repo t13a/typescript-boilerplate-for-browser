@@ -13,7 +13,7 @@ $ node --version
 v20.6.1
 ```
 
-### Install packages
+### Install dependencies
 
 ```
 $ npm ci
@@ -29,7 +29,14 @@ $ npm run dev
 
 ```
 $ npm run build
-$ npm run watch # Build when files have been changed.
+$ npm run build:watch # Build when files have been changed.
+```
+
+### Testing
+
+```
+$ npm run test
+$ npm run test:watch # Test when files have been changed.
 ```
 
 ### Linting and formatting

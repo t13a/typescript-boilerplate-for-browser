@@ -4,5 +4,6 @@
 *.mjs
 
 # Ignore auto-generated files.
+/coverage
 /dist
 /node_modules
